@@ -1,0 +1,99 @@
+#########################
+# Binary artifacts
+#########################
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.lib
+
+#########################
+# Coverage
+#########################
+*.gcda
+*.gcno
+*.gcov
+
+#########################
+# Linker / debug info
+#########################
+*.pdb
+*.map
+*.ilk
+*.ipdb
+*.iobj
+
+#########################
+# Make / build
+#########################
+*.d
+program
+
+#########################
+# Build directories
+#########################
+/build/
+/bin/
+/lib/
+/dist/
+/Debug/
+/Release/
+
+#########################
+# CMake
+#########################
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+cmake-build-*/
+
+#########################
+# Autotools
+#########################
+/autom4te.cache/
+/aclocal.m4
+/compile
+/config.guess
+/config.log
+/config.status
+/configure
+/depcomp
+/install-sh
+/libtool
+/ltmain.sh
+/m4/
+/missing
+/stamp-h1
+
+#########################
+# IDE: CLion
+#########################
+.idea/
+
+#########################
+# IDE: VS Code
+#########################
+.vscode/
+
+#########################
+# IDE: Code::Blocks
+#########################
+*.cbp.workspace
+*.layout
+
+#########################
+# Temporary / trash
+#########################
+*.swp
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
